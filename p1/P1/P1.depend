@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1454119973 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p1/P1/main.cpp
+	<iostream>
+	<string>
+	"matriz.h"
+	"tiposDatos.h"
+
+1454120551 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p1/P1/include/matriz.h
+
+1454119941 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p1/P1/include/tiposDatos.h
+
+1454120032 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p1/P1/src/matriz.cpp
+	"matriz.h"
+	<iostream>
+	<cstdlib>
+	<cmath>
+
+1454119954 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p1/P1/src/tiposDatos.cpp
+	"tiposDatos.h"
+	<iostream>
+	<climits>
+	<cfloat>
+

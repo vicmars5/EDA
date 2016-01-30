@@ -1,0 +1,49 @@
+ <<Listas>>
+----funcion elimina
+		 i=pos
+		
+		mientras i < ultimo
+			datos[i]=datos[i+1]
+			i=i+1
+		fin mientras
+		ultimo=ultimo-1
+
+----funcion ultimo
+	devuelve el valor del ultimo elemento
+
+----funcion anterior
+	recube posicion y regresa otra posicion
+
+	¿vacia(lista) o pos < 1 o pos>ultimo?
+
+----funcion localiza
+	Realiza una busqueda lineal. Recibe el elemento a buscar y devuelve su posicion
+
+----funcion recupera
+	recibe: posicion
+	regresa: elemento
+		¿Vacia(lista) o pos<0 o pos>ultimo?
+			si:
+				¡Error de excepcion!
+				INsuficiencie de datos X(
+				Terminar
+			no:
+				regresar: datos[pos]
+----funcion imprime
+	recibe: pos //posicion
+	devuelve: nada
+
+	i=0
+	mientras i <=ultimo
+		imprimir: datos[i]
+		i=i+i
+	fin mientras
+
+----funcion anula
+	recibe: nada
+	devuelve: nada
+
+	ultimo=-1
+
+//an idiots guides to c++ templates
+//codeproject.com
