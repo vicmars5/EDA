@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1454798007 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/main.cpp
+	<iostream>
+	"menu.h"
+
+1454798190 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/src/date.cpp
+	<iostream>
+	"date.h"
+
+1454798186 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/include/date.h
+	<string>
+	<exception>
+
+1454798190 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/src/product.cpp
+
+1454798187 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/include/product.h
+	<date.h>
+
+1454798192 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/src/productsCollection.cpp
+	"productsCollection.h"
+
+1454798186 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/include/productsCollection.h
+	"product.h"
+
+1454798192 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/src/menu.cpp
+	"menu.h"
+	<iostream>
+	<string>
+	<product.h>
+
+1454798189 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p2/Inventario/include/menu.h
+	"productsCollection.h"
+

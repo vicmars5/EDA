@@ -1,0 +1,14 @@
+	-->COLA<--
+La cola tiene dos extremos, frente y final
+
+TDA(Tipo de DAto ABstracto), almacena datos, generalmente del mismo tipo. Se alamacenan de forma contigua.
+
+Los elementos se insertan por un extremo y se eliminan por el otro extremo de la estructura.
+
+Enqueue.- Coloca un elemento nuevvo al final de la cola, se genera un error si la cola se encuentra llena.
+REcibe  el elemento a insertar. NO devuelve nada.
+
+Dequeue: Borra un elemento al frente de la cola, genera error si se encuentra vacia. NO devuelve nada.
+
+Front: Obtiene el elemento que se encuentra en frente de la cola. Se genera un error si la colca esta vacia. NADA
+

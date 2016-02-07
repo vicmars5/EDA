@@ -1,0 +1,17 @@
+---PILA---
+	Tipo de DAto Abstracto que almacenan elementos, normalmente del mismo tipo.
+Los elementos de una pila se alamacenan siempre de forma contigua (no hay eespacios entre ellos).
+
+OPeracion
+Inicializa  (se aplica al crear la lista)
+Vacia (REvisa el estado actual de la pila, si existen elementos regresa falso)
+Llena (Revisa el estado de la pila y revisa si esta llena
+Push (Coloca un nuevo elemento en el tope de la pila/ tamien se le conoce como "apilar")
+//NO se pueden insertar elementos en la pila, la definicion mas estricata de insertar nos dice que añade un elemento entre otros dos
+pop - Borra un elemento del tope de la fila, no devuelve nada.
+//TAmpoco existe eliminar, en su kugar esta pop
+Top: Obtiene el elemento que se encuentra en el tope de la pila
+
+---Conversion de expesiones de notacion ...
+
+

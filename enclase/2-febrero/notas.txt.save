@@ -1,0 +1,3 @@
+		---PILA---
+	Tipo de Dato Abstracto (TDA) que almacena elementos, normalmente del mismo tipo.
+Los elementos de una pila se almacenan siemprre de forma contigua (no hay espacios entre ellos)

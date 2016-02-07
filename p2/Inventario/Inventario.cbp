@@ -2,12 +2,12 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6" />
 	<Project>
-		<Option title="P1" />
+		<Option title="Inventario" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/P1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Inventario" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -17,7 +17,7 @@
 				</Compiler>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/P1" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Release/Inventario" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -34,11 +34,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/matriz.h" />
-		<Unit filename="include/tiposDatos.h" />
+		<Unit filename="include/date.h" />
+		<Unit filename="include/menu.h" />
+		<Unit filename="include/product.h" />
+		<Unit filename="include/productsCollection.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/matriz.cpp" />
-		<Unit filename="src/tiposDatos.cpp" />
+		<Unit filename="src/date.cpp" />
+		<Unit filename="src/menu.cpp" />
+		<Unit filename="src/product.cpp" />
+		<Unit filename="src/productsCollection.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
