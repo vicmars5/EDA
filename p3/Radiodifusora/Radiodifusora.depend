@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1454827084 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/main.cpp
+	"menu.h"
+
+1454821018 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/src/song.cpp
+
+1454830017 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/src/songsList.cpp
+	"songsList.h"
+	<iostream>
+
+1454827551 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/include/songsList.h
+	<exception>
+	"song.h"
+
+1454828741 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/include/song.h
+	<string>
+
+1454829993 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/src/menu.cpp
+	"menu.h"
+	<iostream>
+	"song.h"
+
+1454827552 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/include/menu.h
+	"songsList.h"
+
