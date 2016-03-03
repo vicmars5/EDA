@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1456116680 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/enclase/18-feb/ArrayList/main.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+
+1456408453 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/enclase/18-feb/ArrayList/list.h
+	<string>
+	<exception>
+
+1456842684 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/enclase/1-mar/ArrayList/main.cpp
+	<iostream>
+	<cstdlib>
+	"list.h"
+
+1456843252 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/enclase/1-mar/ArrayList/list.h
+	<string>
+	<exception>
+

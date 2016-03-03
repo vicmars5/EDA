@@ -1,0 +1,2 @@
+	Busqueda 
+Si no se encuentra regresa una posicion invalida (-1)

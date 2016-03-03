@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1455995175 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/main.cpp
+	<iostream>
+	"pila.h"
+	"cola.h"
+
+1455941756 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/src/pila.cpp
+
+1455994359 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/include/pila.h
+	<exception>
+
+1455994672 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/include/cola.h
+	<exception>
+

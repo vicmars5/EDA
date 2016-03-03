@@ -1,0 +1,80 @@
+# depslib dependency file v1.0
+1454827084 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/main.cpp
+	"menu.h"
+
+1454821018 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/src/song.cpp
+
+1454863848 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/src/songsList.cpp
+	"songsList.h"
+	<iostream>
+
+1454827551 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/include/songsList.h
+	<exception>
+	"song.h"
+
+1454828741 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/include/song.h
+	<string>
+
+1454863807 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/src/menu.cpp
+	"menu.h"
+	<iostream>
+	<cstdlib>
+	"song.h"
+
+1454827552 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p3/Radiodifusora/include/menu.h
+	"songsList.h"
+
+1455252661 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p5/Radiodifusora/main.cpp
+	"menu.h"
+
+1455252953 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p5/Radiodifusora/include/menu.h
+	"songsList.h"
+
+1456357452 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p5/Radiodifusora/include/songsList.h
+	<exception>
+	"song.h"
+
+1455252953 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p5/Radiodifusora/include/song.h
+	<string>
+
+1456358332 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p5/Radiodifusora/src/menu.cpp
+	"menu.h"
+	<iostream>
+	<cstdlib>
+	"song.h"
+
+1454821018 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p5/Radiodifusora/src/song.cpp
+
+1456546968 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p5/Radiodifusora/src/songsList.cpp
+	"songsList.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1456892966 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p6/Radiodifusora/src/song.cpp
+
+1456617443 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p6/Radiodifusora/main.cpp
+	"menu.h"
+
+1457023212 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p6/Radiodifusora/include/menu.h
+	"songsList.h"
+
+1457023148 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p6/Radiodifusora/include/songsList.h
+	<exception>
+	"song.h"
+
+1456892962 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p6/Radiodifusora/include/song.h
+	<string>
+
+1457020920 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p6/Radiodifusora/src/menu.cpp
+	"menu.h"
+	<iostream>
+	<cstdlib>
+	"song.h"
+
+1457022950 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p6/Radiodifusora/src/songsList.cpp
+	"songsList.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+

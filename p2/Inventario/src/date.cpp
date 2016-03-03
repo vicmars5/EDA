@@ -39,14 +39,14 @@ void Date::setDate(int &d, int &m, int &y) {
                         }
                     else {
                         throw DateException("ERROR, INVALID DATE");
-                        }
                     }
                 }
             }
         }
+    }
     else {
         throw DateException("ERROR, INVALID DATE");
-        }
+    }
     }
 
 void Date::saveDate(int &d, int &m, int &y) {

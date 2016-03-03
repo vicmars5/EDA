@@ -7,14 +7,16 @@
 
 #define ARRAY_SIZE 1024
 
-class SongsListException : public std::exception{
+class SongsListException : public std::exception {
 private:
     std::string msg;
 public:
-    explicit SongsListException(const char* message) : msg(message){}
+    explicit SongsListException(const char* message) : msg(message) {}
     explicit SongsListException(const std::string& message) :msg(message) {}
     virtual ~SongsListException() throw () {}
-    virtual const char* what() const throw () { return msg.c_str();}
+    virtual const char* what() const throw () {
+        return msg.c_str();
+    }
 };
 
 class SongsList {

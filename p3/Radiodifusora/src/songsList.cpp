@@ -95,12 +95,18 @@ void SongsList::sortData() {
 }
 
 void SongsList::printData() {
-    for (int i = 0; i <= last; i++) {
+    int i;
+    cout << "Canciones: " << endl;
+    for (i = 0; i <= last; i++) {
         cout << "Nombre " << data[i].name << endl
              << "Autor " << data[i].author << endl
              << "Interprete " << data[i].player << endl
              << "Ranking " << data[i].ranking << endl << endl;
     }
+    if(i==0) {
+        cout << "No hay canciones en el ranking" << endl;
+    }
+    cout << endl;
 }
 
 void SongsList::deleteAll() {

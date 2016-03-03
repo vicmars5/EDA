@@ -1,0 +1,19 @@
+	Archivos almacenamientos secundarios
+
+Conceptos (muy) basicos:
+
+	Operaciones sobre archivos:
+crear
+abrir
+leer - formato lboque o linea
+escribir - bloque o linea
+añadir
+posicionar - para acceso aleatorio
+adelante
+atras
+borrar
+fin del archivo
+cerrar
+
+
+-->> cuando manedemos un obejto a la lista debe ser: imprimible, comparable y copiable XD.

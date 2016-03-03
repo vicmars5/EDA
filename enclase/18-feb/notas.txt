@@ -1,0 +1,64 @@
+	BURBUJA
+
+Algoritmo:
+
+	función: burbuja()
+	recibe: arr[], ultind
+	regresa: nada
+	
+		i = ultind
+		mientras i > 0
+			j = 0
+			mientras j < i
+				¡arr[j] > arr [j+1?
+					Si: intercambiar arr[j] <->arr[j+1]
+				j = j + 1;
+			fin mientras
+		i = i -1;
+		fin mientras
+
+
+	BUBUJA MEJORADA
+
+Algoritmo:
+
+	función: burbuja()
+	recibe: arr[], ultind
+	regresa: nada
+	
+		i = ultind
+		hacer
+			bandera = 0;
+
+			j = 0
+			mientras j < i
+				¡arr[j] > arr [j+1?
+					Si: intercambiar arr[j] <->arr[j+1]
+						bandera = 1;
+				j = j + 1;
+			fin mientras
+
+		i = i -1;
+		fin mientras bandera = 1;
+
+		SHELL
+algoritmo:
+	funcion: shell
+	recibe: arr[], ultind
+	regresa: nada
+
+		dact = 3 / 4
+		dif = ultind / fact
+
+		mientras dif > 0
+			i = 0
+
+			mientras i <= ultind - dif
+				¿arr[i] > arr [i + dif];
+					Si: intercambia arr[i] <-> arr[i+dif]
+
+				i = i + 1
+			fin mientras
+
+			dif = dif * fact
+		fin mientras

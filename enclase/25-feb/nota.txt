@@ -1,0 +1,8 @@
+INSERCION
+SELECCION
+
+ stupid sort
+
+FIN temas del Martes
+
+<---hoy nos toca APUNTADORES---->

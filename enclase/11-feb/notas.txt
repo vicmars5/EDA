@@ -1,0 +1,57 @@
+	Lista
+
+Una lista tiene 14 operaciones:
+
+	Operacion	Regresa
+
+	Inicializa	nada
+	Vacía		booleano
+	Llena *		booleano
+	Inserta		nada
+	Elimina		nada
+	Primero		posicion
+	Ultimo		posicion
+	Anterior	posicion
+	Siguiente	posicion
+	Localiza	posicion
+	Recupera	elemento
+	Ordena		nada
+	Imprime		nada
+	Anula		nada
+
+Funcion
+	Inicializa: Se aplica al crear la lista, esta operación asegura que la lista esté
+vacía en su estado incial, dejándola preparada para iniciar operaciones sobre ella. Recibe
+la lista que se inicializará. No devuelve nada. //Esta nota es para programacion estructurada.
+
+	Vacía: Revisa el estado actual de la lista e informa si es que se encuentra vacía.
+Recibe la lista que se revisará. SI no existe ningún en la listaregresara verdadero, si existe uno o más elementos regresa falso.
+
+	Llena: Revisa el estado actual de la lista e informa si es que se encuentra llena.
+
+	Insertar: Coloca un elemento nuevo en la posidion que queramos. Guarda un elemento dentro de ella cuidando siempre el
+ almacenamiento contiguo. Se genera un error si la pocision proporcionada no es valida.
+
+	ELimina: ELimina un elemento dentro de la lista cuidando siempre el almacenamiento contiguo, se genra error si la lista se
+encuentra vacia o es una posicion invalida.
+
+	Primero: Determina la posicion del primer elemento de la lista. Recibe una lista. Devuelve la posicion del primer elemento de la lista...
+
+	Ultimo: Determina la posicion del ultimo elemento de la lista. SI esta vacia regresa posicion invalida.
+
+	ANterior: Determina la posicion del elemento anterior con respecto a una posicion dada de un elemento de la lista. 
+SI la lista esta vacia, devuelve posicion invalida y tambien si la posicion proporcionada es invalida, y si es el primer 
+elemento tambien regresa posicion invalida.
+
+	Siguiente: Determina la posicion del siguiente elemento respecto a uno dado.
+
+	Localiza: Determina la pocision de un elemento dentro de una lista. Recibe el elemento a buscar.
+Devuelve la posicion del elemento dentro de la lista, si no se encuentra el elemento devuelve una posicion invalida.
+
+	Recupera: Obtiene el elemento que se encuentra en una determinada posicion en una lista.
+
+	Ordena: Reubica los elementos dentro de una lista para que tengan un acomodo entre sí. NO devuelve nada
+
+	Imprime: Desliega la totalidad de los elementos de una lista en el orden que sen encuentran.
+	
+	ANula: Deja la lista en blanco.
