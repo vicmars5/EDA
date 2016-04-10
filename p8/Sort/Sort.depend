@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1458103765 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p8/Sort/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"sort.h"
+
+1458102505 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p8/Sort/include/sort.h
+
+1458102767 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p8/Sort/src/sort.cpp
+	"sort.h"
+	<ctime>
+	<iostream>
+

@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1457620067 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/enclase/10-mar/LSLLSE/main.cpp
+	<iostream>
+
+1457620189 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/enclase/10-mar/LSLLSE/src/lista.cpp
+
+1457620189 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/enclase/17-mar/LSLLSE/src/lista.cpp
+
+1458223646 source:/home/vic/Documents/Vic/EDA/EDA/enclase/5-abril/LSLLSE/main.cpp
+	<iostream>
+	"lista.h"
+
+1459863531 /home/vic/Documents/Vic/EDA/EDA/enclase/5-abril/LSLLSE/include/lista.h
+	"node.h"
+	<iostream>
+	<exception>
+
+1459863898 /home/vic/Documents/Vic/EDA/EDA/enclase/5-abril/LSLLSE/include/node.h
+
+1457620188 source:/home/vic/Documents/Vic/EDA/EDA/enclase/5-abril/LSLLSE/src/lista.cpp
+
