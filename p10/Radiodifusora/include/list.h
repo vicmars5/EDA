@@ -215,7 +215,13 @@ void List<T>::printData() {
 
 template <class T>
 void List<T>::deleteAll() {
+    Node<T>* aux;
 
+    while(anchor != nullptr) {
+        aux = anchor;
+        anchor = anchor->getNext();
+        delete aux;
+    }
 }
 
 template <class T>
@@ -228,7 +234,6 @@ void List<T>::readFromDisk(const string& fileName){
     if(!myFile.is_open()) {
         throw ListException("Error al LEER DE DISCO");
     }
-
     deleteAll();
 
     try {
