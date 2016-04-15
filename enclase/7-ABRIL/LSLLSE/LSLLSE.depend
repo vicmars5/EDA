@@ -33,3 +33,16 @@
 
 1457620188 source:/home/vic/Documents/Vic/EDA/EDA/enclase/7-ABRIL/LSLLSE/src/lista.cpp
 
+1458223646 source:/home/vic/Documents/EDA/enclase/7-ABRIL/LSLLSE/main.cpp
+	<iostream>
+	"lista.h"
+
+1460035954 /home/vic/Documents/EDA/enclase/7-ABRIL/LSLLSE/include/lista.h
+	"node.h"
+	<iostream>
+	<exception>
+
+1460036207 /home/vic/Documents/EDA/enclase/7-ABRIL/LSLLSE/include/node.h
+
+1457620188 source:/home/vic/Documents/EDA/enclase/7-ABRIL/LSLLSE/src/lista.cpp
+

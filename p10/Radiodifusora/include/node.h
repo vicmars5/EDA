@@ -1,6 +1,8 @@
 #ifndef NODE_H
 #define NODE_H
 
+#include <exception>
+
 class NodeException : public std::exception {
 private:
     std::string msg;
@@ -14,9 +16,9 @@ public:
 };
 
 template <class T>
-class Node {
-
-public:
+class Node
+{
+    public:
     Node();
     Node(const T&);
     ~Node();
@@ -32,27 +34,23 @@ public:
 
     void setPrev(Node<T>*);
     void setNext(Node<T>*);
-
-private:
-    T* dataPtr;
-    Node<T>* prev;
-    Node<T>* next;
+    private:
+        T* dataPtr;
+        Node<T>* prev;
+        Node<T>* next;
 };
 
 template <class T>
-Node<T>::Node() {
+Node<T>::Node()
+{
     prev = nullptr;
     next = nullptr;
     dataPtr = nullptr;
 }
 
 template <class T>
-Node<T>::~Node() {
-    delete dataPtr;
-}
-
-template <class T>
-Node<T>::Node(const T& e) : Node(){
+Node<T>::Node(const T& e) : Node()
+{
     dataPtr = new T(e);
 
     if(dataPtr == nullptr) {
@@ -61,47 +59,66 @@ Node<T>::Node(const T& e) : Node(){
 }
 
 template <class T>
-T& Node<T>::getData() {
+Node<T>::~Node()
+{
+    delete dataPtr;
+}
+
+template <class T>
+T& Node<T>::getData()
+{
     return *dataPtr;
 }
 
 template <class T>
-Node<T>* Node<T>::getPrev() {
+T* Node<T>::getDataPtr()
+{
+    return dataPtr;
+}
+
+template <class T>
+Node<T>* Node<T>::getPrev()
+{
     return prev;
 }
 
 template <class T>
-Node<T>* Node<T>::getNext() {
+Node<T>* Node<T>::getNext()
+{
     return next;
 }
 
 template <class T>
-void Node<T>::setData(const T& e) {
-    if (dataPtr == nullptr) {
+void Node<T>::setData(const T& e)
+{
+    if(dataPtr == nullptr) {
         dataPtr = new T(e);
+        if(dataPtr == nullptr) {
+            NodeException("Error en SET DATA");
+        }
+        return;
     }
 
     *dataPtr = e;
 }
 
-T Node::getDataPtr()
-{
-    return dataPtr;
-}
-
-void Node::setDataPtr(T* ptr)
+template <class T>
+void Node<T>::setDataPtr(T* ptr)
 {
     dataPtr = ptr;
 }
 
 template <class T>
-void Node<T>::setPrev(Node<T>* p) {
-    prev = p;
+void Node<T>::setPrev(Node<T>* ptr)
+{
+    prev = ptr;
 }
 
 template <class T>
-void Node<T>::setNext(Node<T>* p) {
-    next = p;
+void Node<T>::setNext(Node<T>* ptr)
+{
+    next = ptr;
 }
+
 
 #endif // NODE_H

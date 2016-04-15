@@ -16,7 +16,7 @@ public:
 
 private:
     T data;
-    Node<T> next;
+    Node<T>* next;
 };
 
 template <class T>
