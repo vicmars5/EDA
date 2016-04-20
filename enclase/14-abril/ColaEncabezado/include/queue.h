@@ -86,7 +86,4 @@ T Queue::getFront()
     return header->getNext()->getData();
 }
 
-
-
-
 #endif // QUEUE_H

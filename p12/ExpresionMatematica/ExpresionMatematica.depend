@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1455995175 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/main.cpp
+	<iostream>
+	"pila.h"
+	"cola.h"
+
+1455941756 source:/home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/src/pila.cpp
+
+1455994359 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/include/pila.h
+	<exception>
+
+1455994672 /home/vic/OneDrive/Escuela/2 semestre/EDA/EDA/p4/ExpresionMatematica/include/cola.h
+	<exception>
+
+1456116070 source:/home/vic/Documents/EDA/p4/ExpresionMatematica/main.cpp
+	<iostream>
+	"pila.h"
+	"cola.h"
+
+1456116686 /home/vic/Documents/EDA/p4/ExpresionMatematica/include/pila.h
+	<exception>
+
+1456116686 /home/vic/Documents/EDA/p4/ExpresionMatematica/include/cola.h
+	<exception>
+
+1461114485 source:/home/vic/Documents/EDA/p12/ExpresionMatematica/main.cpp
+	<iostream>
+	"queue.h"
+	"stack.h"
+
+1456116686 /home/vic/Documents/EDA/p12/ExpresionMatematica/include/pila.h
+	<exception>
+
+1456116686 /home/vic/Documents/EDA/p12/ExpresionMatematica/include/cola.h
+	<exception>
+
+1461113932 /home/vic/Documents/EDA/p12/ExpresionMatematica/include/queue.h
+	<exception>
+	<string>
+	"list.h"
+
+1461079713 /home/vic/Documents/EDA/p12/ExpresionMatematica/include/list.h
+	<exception>
+	<iostream>
+	<fstream>
+	"node.h"
+
+1460472686 /home/vic/Documents/EDA/p12/ExpresionMatematica/include/node.h
+	<exception>
+
+1461110575 /home/vic/Documents/EDA/p12/ExpresionMatematica/include/stack.h
+	<exception>
+	<string>
+	"list.h"
+

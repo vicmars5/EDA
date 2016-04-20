@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1461079976 source:/home/vic/Documents/EDA/p12/StackAndQueue/main.cpp
+	<iostream>
+	"list.h"
+	"stack.h"
+	"queue.h"
+
+1461079713 /home/vic/Documents/EDA/p12/StackAndQueue/list.h
+	<exception>
+	<iostream>
+	<fstream>
+	"node.h"
+
+1460472686 /home/vic/Documents/EDA/p12/StackAndQueue/node.h
+	<exception>
+
+1460931029 /home/vic/Documents/EDA/p12/StackAndQueue/stack.h
+	<exception>
+	<string>
+
+1461079350 /home/vic/Documents/EDA/p12/StackAndQueue/queue.h
+	<exception>
+	<string>
+
