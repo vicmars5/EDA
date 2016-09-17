@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1461723160 source:/home/vic/Documents/EDA/p13/BTree/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"binaryTree.h"
+
+1461722986 /home/vic/Documents/EDA/p13/BTree/include/binaryTree.h
+	<exception>
+	<string>
+	<iostream>
+	"node.h"
+
+1461719365 /home/vic/Documents/EDA/p13/BTree/include/node.h
+	<exception>
+	<string>
+
+1462141707 source:/home/vic/Documents/EDA/enclase/28-abril/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"binaryTree.h"
+
+1462141890 /home/vic/Documents/EDA/enclase/28-abril/include/binaryTree.h
+	<exception>
+	<string>
+	<iostream>
+	"node.h"
+
+1462139096 /home/vic/Documents/EDA/enclase/28-abril/include/node.h
+	<exception>
+	<string>
+

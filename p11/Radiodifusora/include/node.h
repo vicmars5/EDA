@@ -25,7 +25,7 @@ public:
     T& getData();
     T* getDataPtr();
 
-    Node <T>* getPrev();
+    Node<T>* getPrev();
     Node<T>* getNext();
 
     void setData(const T&);
